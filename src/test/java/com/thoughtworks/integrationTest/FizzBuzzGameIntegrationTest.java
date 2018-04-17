@@ -28,7 +28,6 @@ public class FizzBuzzGameIntegrationTest {
                 "Whizz", "92", "Fizz", "94", "Buzz", "Fizz", "97", "Whizz", "Fizz", "Buzz"
         );
 
-
         FizzBuzzGame game = new FizzBuzzGame();
         game.start(100);
         List<String> results = game.getResults();
